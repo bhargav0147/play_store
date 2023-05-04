@@ -30,7 +30,7 @@ class _DashScreenState extends State<DashScreen> {
           children: [
             Container(
               height: 40,
-              width: 238,
+              width: 280,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
                   color: Colors.blue.shade100),
