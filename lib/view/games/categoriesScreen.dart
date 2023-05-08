@@ -38,8 +38,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
       ),
     );
   }
-  Widget cate(String name)
-  {
+  Widget cate(String name) {
     return Container(
       margin: EdgeInsets.symmetric(vertical: 5),
       height: 40,

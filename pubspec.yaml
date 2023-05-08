@@ -77,6 +77,19 @@ flutter:
     - assets/images/games/township/
     - assets/images/games/ww2/
     - assets/images/games/zombie/
+    - assets/images/app/call/
+    - assets/images/app/fb/
+    - assets/images/app/google/
+    - assets/images/app/hotstar/
+    - assets/images/app/medge/
+    - assets/images/app/mlens/
+    - assets/images/app/netflix/
+    - assets/images/app/snapchat/
+    - assets/images/app/spoti/
+    - assets/images/app/whatsapp/
+    - assets/images/app/gpay/
+    - assets/images/offers/
+    - assets/images/books/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

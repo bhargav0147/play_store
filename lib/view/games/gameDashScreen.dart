@@ -15,7 +15,7 @@ class _GameDashScreenState extends State<GameDashScreen> {
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
-      initialIndex: 2,
+      initialIndex: 0,
       child: SafeArea(child: Scaffold(
         appBar: PreferredSize(
           preferredSize: Size.fromHeight(20),

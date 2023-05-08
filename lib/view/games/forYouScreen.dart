@@ -12,7 +12,6 @@ class ForYouScreen extends StatefulWidget {
 class _ForYouScreenState extends State<ForYouScreen> {
   PlayProvider? providerFalse;
   PlayProvider? providerTrue;
-
   @override
   Widget build(BuildContext context) {
     providerTrue = Provider.of<PlayProvider>(context, listen: true);
