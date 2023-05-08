@@ -12,7 +12,6 @@ class GameInfoScreen extends StatefulWidget {
 class _GameInfoScreenState extends State<GameInfoScreen> {
   PlayProvider? providerFalse;
   PlayProvider? providerTrue;
-
   @override
   Widget build(BuildContext context) {
     int index=ModalRoute.of(context)!.settings.arguments as int;

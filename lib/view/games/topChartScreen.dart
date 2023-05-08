@@ -13,7 +13,6 @@ class TopChartScreen extends StatefulWidget {
 class _TopChartScreenState extends State<TopChartScreen> {
   PlayProvider? providerFalse;
   PlayProvider? providerTrue;
-
   @override
   Widget build(BuildContext context) {
     providerTrue = Provider.of<PlayProvider>(context, listen: true);
@@ -84,8 +83,7 @@ class _TopChartScreenState extends State<TopChartScreen> {
       ),
     ));
   }
-  Widget topchart(int index)
-  {
+  Widget topchart(int index) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10),
       child: InkWell(
